@@ -80,9 +80,21 @@ hr {
   -ms-user-select: none;
   user-select: none;
 }
+
+.footer{
+  position: relative;
+  margin: 0 auto;
+  padding: 10px 10px;
+  
+  max-width: 900px;
+  
+}
+
+
 .footer-container {
   z-index: 1;
   position: relative;
+  display:flexbox;
   width: 100%;
   background-color: #e3dce6;
   min-width: 300px;
@@ -237,7 +249,7 @@ hr {
 .flex-row-space-between {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   justify-content: space-between;
   align-items: center;
   align-content: stretch;
